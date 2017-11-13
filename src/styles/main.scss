@@ -1,0 +1,208 @@
+.services {
+  min-height: 735px; 
+  padding: 115px 13.5% 0 13.5%;
+  &__title {
+    width: 250px;
+    margin: 0 auto 75px auto;
+    text-transform: uppercase;
+    color: #222222;
+    font-family: Raleway, sans-serif; 
+    font-size: 35px;
+    font-weight: 700;
+  }
+  hr {
+    width: 86px;
+    height: 2px;
+    background-color: #222222;
+    margin: 0 auto 65px auto;
+    border: none;
+  }
+  &__section-flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    .section-flex__inner {
+      width: 32%;
+      min-width: 240px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+      text-align: center;
+      color: #222222;
+      font-family: Lato, sans-serif;
+      font-weight: 400;
+      &-iphone {
+        margin-bottom: 50px;
+      }
+      &-desktop {
+        margin-bottom: 33px;
+      }
+      &-check {
+        margin-top: 22px;
+        margin-bottom: 44px;
+      }
+      h4 {
+        font-size: 24px;
+        margin-bottom: 32px;
+      }
+      p {
+        max-width: 320px;
+        margin: 0 auto;
+        font-size: 16px;
+        line-height: 30px;
+      }
+    }
+  }
+}
+.aboutus {
+  min-height: 500px;
+  width: 100%;
+  background-image: url(../imgs/bgabout.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 13.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  &__section-left {
+    width: 560px;
+    padding-top: 170px;
+    color: #fff;
+    font-family: Lato, sans-serif;
+    h3 {
+      font-size: 45px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+    p {
+      width: 515px;
+      font-size: 22px;
+      font-weight: 100;
+      line-height: 28px;
+      margin-bottom: 65px;
+    }
+    a {
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 400;
+      &:hover {
+        text-shadow: 0 0 5px rgba(225,225,225,0.7);
+      }
+    }
+  }
+  &__section-right {
+    width: 460px;
+    padding-top: 75px;
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 257px;
+    }
+  }
+}
+@media all and (max-width: 1074px) {
+  .aboutus__section-right img {
+    visibility: hidden;
+  }
+}
+.ourwork {
+  width: 100%;
+  min-height: 950px;
+  padding: 115px 12.5% 0 12.5%;
+  text-align: center;
+  &__title {
+    margin-bottom: 70px;
+    color: #222;
+    font-family: Raleway, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  hr {
+    width: 86px;
+    margin: 0 auto 75px auto;
+    height: 2px;
+    background-color: #222;
+    border: none;
+  }
+  &__section-flex {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    .section-flex__inner {
+      min-width: 290px;
+      width: 32%;
+      height: 420px;
+      margin-top: 15px;
+      text-align: center;
+      color: #222;
+      font-family: Lato, sans-serif;
+      font-weight: 400;
+      &:first-child {
+        background-image: url(../imgs/planet.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      &:nth-child(2) {
+        background-image: url(../imgs/jetindus.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      &:last-child {
+        background-image: url(../imgs/trimplement.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      &-invisible {
+        width: 100%;
+        height: 100%;
+        padding-top: 175px;
+        visibility: hidden;
+        background-color: rgba(0, 0, 0, 0.5);
+        p {
+          color: #fff;
+          font-family: Lato, sans-serif;
+          font-size: 22px;
+          font-weight: 400;
+          text-transform: uppercase;
+          margin-bottom: 40px;
+        }
+      }
+      &:hover .section-flex__inner-invisible {
+        visibility: visible;
+      }
+    }
+  }
+  @media all and (max-width: 1135px) {
+    .ourwork__section-flex {
+      flex-direction: column;
+      align-items: center;
+    }
+    .section-flex__inner {
+      width: 370px;
+    }
+  }
+  a {
+    display: block;
+    margin: 80px auto 0 auto;
+    width: 370px;
+    height: 60px;
+    margin-bottom: 15px;
+    border: 3px solid #222;
+    text-align: center;
+    color: #222;
+    font-family: Lato, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    padding-top: 11px;
+  }
+  a:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    text-shadow: 0 0 5px rgba(0,0,0,0.7);;
+  }
+}

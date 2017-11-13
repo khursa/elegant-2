@@ -1,0 +1,95 @@
+.contact { 
+  width: 100%;
+  min-height: 800px;
+  background-image: url(../imgs/bgfooter.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 115px 13.5% 0 13.5%;
+  text-align: center;
+  &__title {
+    margin: 0 auto 65px auto;
+    color: #fff;
+    font-family: Raleway, sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  hr {
+    width: 86px;
+    margin: 0 auto 60px auto;
+    height: 2px;
+    background-color: #fff;
+    border: none;
+  }
+  &__links {
+    width: 225px;
+    margin: 0 auto 60px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    a:hover {
+      transform: scale(1.1);
+    }
+  }
+  &__form {
+    max-width: 670px;
+    margin: 0 auto;
+    color: #676767;
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    &-flex {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-between;
+      input {
+        width: 45.1%;
+        height: 50px;
+        padding-left: 27px;
+        background-color: transparent;
+        border: none;
+        font-style: italic;
+        border-bottom: 2px solid #afafaf;
+        outline: none;
+        &::-webkit-input-placeholder {color:#676767;}
+        &::-moz-placeholder          {color:#676767;}
+        &:-moz-placeholder           {color:#676767;}
+        &:-ms-input-placeholder      {color:#676767;}
+      }
+    }
+    textarea {
+      margin-top: 90px;
+      margin-bottom: 50px;
+      height: 50px;
+      width: 100%;
+      padding: 15px 0 0 27px;
+      background-color: transparent;
+      border: none;
+      border-bottom: 2px solid #afafaf;
+      font-style: italic;
+      outline: none;
+      resize: none;
+      &::-webkit-input-placeholder {color:#676767;}
+      &::-moz-placeholder          {color:#676767;}
+      &:-moz-placeholder           {color:#676767;}
+      &:-ms-input-placeholder      {color:#676767;}
+    }
+    &-button {
+      width: 185px;
+      height: 60px;
+      border: 3px solid #fff;
+      text-align: center;
+      color: #fff;
+      font-family: Lato, sans-serif;
+      font-size: 24px;
+      font-weight: 400;
+      text-decoration: none;
+      background-color: transparent;
+    }
+    &-button:hover {
+      box-shadow: 0 0 10px rgba(225,225,225,0.7);
+      text-shadow: 0 0 5px rgba(225,225,225,0.7);
+    }
+  }
+}

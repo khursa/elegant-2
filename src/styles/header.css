@@ -1,0 +1,74 @@
+.header {
+  padding: 50px 13.5% 0 13.5%; 
+  height: 900px;
+  background-image: url(../imgs/bgheader.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+  .header__top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; }
+    .header__top .logo {
+      width: 111px;
+      height: 18px; }
+  .header .nav__menu-item {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 50px; }
+    .header .nav__menu-item-link {
+      vertical-align: middle;
+      text-decoration: none;
+      color: #fffefe;
+      font-family: Lato, sans-serif;
+      font-size: 14px;
+      font-weight: 500;
+      position: relative; }
+      .header .nav__menu-item-link:before {
+        display: block;
+        background-color: #fff;
+        position: absolute;
+        content: "";
+        left: 0;
+        right: 0;
+        top: -2px;
+        height: 2px;
+        opacity: 0;
+        transform: translateY(-10px);
+        transition: transform .2s ease-in, opacity .2s ease-in; }
+      .header .nav__menu-item-link:hover:before {
+        opacity: 1;
+        transform: translateY(0); }
+  .header__title {
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center; }
+    .header__title h1 {
+      text-transform: uppercase;
+      font-size: 48px;
+      font-weight: 700;
+      margin: 245px 0 45px 0;
+      padding: 0;
+      font-family: Raleway, sans-serif;
+      color: #fff; }
+    .header__title hr {
+      width: 86px;
+      height: 2px;
+      background-color: #ffffff;
+      margin: 0 auto 40px auto;
+      border: none; }
+    .header__title p {
+      color: #fffefe;
+      font-family: Lato, sans-serif;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 30px; }
+  .header__img-link {
+    width: 92px;
+    height: 92px;
+    display: block;
+    border-radius: 50%;
+    margin: 255px auto 0 auto; }
+    .header__img-link:hover {
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.7); }
+

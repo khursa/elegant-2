@@ -1,0 +1,140 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <title>EXAM-Elegant</title>
+    <link rel="shortcut icon" href="imgs/logo-mini.png" type="image/png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="dist/styles/normalize.css" />
+    <link rel="stylesheet" href="dist/styles/layout.css" />
+    <link rel="stylesheet" href="dist/styles/style.css" />
+
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900|Raleway:300,400,500,600,700,800,900" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <header class="header">
+        <section class="header__top">
+            <a class="header__top-logo">
+                <img class="logo" src="dist/imgs/logo.png" alt="Elegant">
+            </a>
+            <nav class="header__top-nav">
+                <ul class="nav__menu">
+                    <li class="nav__menu-item">
+                        <a href="#" class="nav__menu-item-link">HELLO</a>
+                    </li>
+                    <li class="nav__menu-item">
+                        <a href="#services" class="nav__menu-item-link">SERVICES</a>
+                    </li>
+                    <li class="nav__menu-item">
+                        <a href="#aboutus" class="nav__menu-item-link">ABOUTUS</a>
+                    </li>
+                    <li class="nav__menu-item">
+                        <a href="#ourwork" class="nav__menu-item-link">OUR WORK</a>
+                    </li>
+                    <li class="nav__menu-item">
+                        <a href="#contact" class="nav__menu-item-link">CONTACT US</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <section class="header__title">
+            <h1>we’re creative agency</h1>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                Aenean commodo ligula eget dolor. Aenean massa.</p>
+        </section>
+        <a href="#services" class="header__img-link"><img src="dist/imgs/headerdown.svg" alt="Down"></a>
+    </header>
+    <main>
+        <section id="services" class="services">
+            <h2 class="services__title">our services</h2>
+            <hr>
+            <section class="services__section-flex">
+                <div class="section-flex__inner">
+                    <img src="dist/imgs/iphone.svg" alt="Iphone" class="section-flex__inner-iphone">
+                    <h4>App Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        ilabore et dolore.</p>
+                </div>
+                <div class="section-flex__inner">
+                    <img src="dist/imgs/desktops.svg" alt="Desktops" class="section-flex__inner-desktop">
+                    <h4>Responsive Layout</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        ilabore et dolore.</p>
+                </div>
+                <div class="section-flex__inner">
+                    <img src="dist/imgs/check.svg" alt="Check" class="section-flex__inner-check">
+                    <h4>Pixel Perfect Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        ilabore et dolore.</p>
+                </div>
+            </section>
+        </section>
+        <section id="aboutus" class="aboutus">
+            <div class="aboutus__section-left">
+                <h3>dolore magna aliqua</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+                <a href="#">more</a>
+            </div>
+            <div class="aboutus__section-right">
+                <img src="dist/imgs/phone.png" alt="Phone" class="aboutus__bigphone">
+            </div>
+        </section>
+        <section id="ourwork" class="ourwork">
+            <h2 class="ourwork__title">our work</h2>
+            <hr>
+            <section class="ourwork__section-flex">
+                <div class="section-flex__inner">
+                    <div class="section-flex__inner-invisible">
+                        <p>kinderen planet</p>
+                        <img src="dist/imgs/imgourwork.svg" alt="Work">
+                    </div>
+                </div>
+                <div class="section-flex__inner">
+                    <div class="section-flex__inner-invisible">
+                        <p>kinderen planet</p>
+                        <img src="dist/imgs/imgourwork.svg" alt="Work">
+                    </div>
+                </div>
+                <div class="section-flex__inner">
+                    <div class="section-flex__inner-invisible">
+                        <p>kinderen planet</p>
+                        <img src="dist/imgs/imgourwork.svg" alt="Work">
+                    </div>
+                </div>
+            </section>
+            <a href="#">MORE</a>
+        </section>
+    </main>
+    <footer id="contact" class="contact">
+        <h2 class="contact__title">get in touch</h2>
+        <hr>
+        <div class="contact__links">
+            <a href="https://twitter.com/?lang=ru"><img src="dist/imgs/twitter.svg" alt="twitter" title="twitter"></a>
+            <a href="https://www.facebook.com"><img src="dist/imgs/facebook.svg" alt="facebook" title="facebook"></a>
+            <a href="https://www.linkedin.com"><img src="dist/imgs/linkedin.svg" alt="linkedin" title="linkedin"></a>
+            <a href="#"><img src="dist/imgs/vi.svg" alt="vi" title="vi"></a>
+            <a href="https://www.behance.net"><img src="dist/imgs/be.svg" alt="behance" title="behance"></a>
+        </div>
+        <form action="#" method="get" class="contact__form">
+            <div class="contact__form-flex">
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Email">
+            </div>
+            <textarea name="" id="" cols="30" rows="1" placeholder="Message"></textarea>
+            <input type="submit" value="SEND" class="contact__form-button">
+        </form>
+    </footer>
+</body>
+</html>
